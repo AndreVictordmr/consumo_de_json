@@ -1,0 +1,24 @@
+[
+    {
+        "coxinha":{
+            "nome":"Coxinha",
+            "igredientes":"frango desfiado",
+            "origem":"Brasileira",
+            "nuticao":"proteina e carboitrato"
+        },
+        "esfira":{
+            "nome":"Esfira de carne",
+            "ingrediente":"carne moida",
+            "origem":"Árabe",
+            "nuticao":"proteina e carboitrato"
+        },
+        "cornDog":{
+            "nome":"Corn Dog",
+            "ingrediente":"salsicha e queijo",
+            "origem":"americana",
+            "nuticao":"proteina e colesterol"
+        }
+    }
+]
+    
+    
