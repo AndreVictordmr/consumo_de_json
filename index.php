@@ -1,5 +1,5 @@
 <?php
-    $url = "http://localhost/consumo_de_json/api/salgado_api.php?name=coxinha&info=origem";
+    $url = "http://localhost/consumo_de_json/api/salgado_api.php?name=corndog&info=origem";
     $resposta = file_get_contents($url);
     $dado = json_decode($resposta,true);
 ?>
