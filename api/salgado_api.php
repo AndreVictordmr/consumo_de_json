@@ -10,13 +10,16 @@
             dadoGet($arquivo);
             break;
         default:
-            echo 'Metodo errado';
+            echo json_encode(['erro'=>'Metodo errado']);
         break;
     }
 
 
     function dadoGet($arquivo){
         $tipo = $_GET['name'];
+        if(!$tipo){
+            echo json_encode(['erro'=>'porfavor entre com um nome']);
+        }
         $entrada = $_GET['info']??null;
         if(!$entrada){
             $entrada = 'tudo';
@@ -37,7 +40,7 @@
                 echo getTudo($salgado);
                 break;
             default:
-                echo 'Endpoint errado porfavor entre com uma informaçao valida';
+                echo json_encode(['erro'=>'Endpoint errado porfavor entre com uma informaçao valida']);
                 break;
         }
         
