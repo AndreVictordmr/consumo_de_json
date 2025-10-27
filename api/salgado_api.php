@@ -16,7 +16,7 @@
 
 
     function dadoGet($arquivo){
-        $tipo = $_GET['name'];
+        $tipo = $_GET['name']??null;
         if(!$tipo){
             echo json_encode(['erro'=>'porfavor entre com um nome']);
         }
